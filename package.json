@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-practice",
+  "version": "1.0.0",
+  "description": "practicing bootsstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assest/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "with",
+    "sass",
+    "learning"
+  ],
+  "author": "abed kafaween",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0",
+    "postcss-cli": "^8.3.1"
+  }
+}
