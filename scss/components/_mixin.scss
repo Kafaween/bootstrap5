@@ -1,0 +1,24 @@
+//gradioant 
+
+@mixin colors {
+    background: linear-gradient(to right , rgba($primary,0.95),rgba($secondary,0.95));
+    
+}
+
+
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@mixin color{
+    background-image: linear-gradient(to right , $primary,$secondary);
+}
+
+@mixin transition{
+    transition-duration: 1000ms;
+    transition-property: all;
+}

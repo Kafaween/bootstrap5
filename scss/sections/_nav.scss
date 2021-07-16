@@ -1,0 +1,14 @@
+.menu{
+   
+   @include colors;
+    
+    li{
+        padding: 0 10px;
+        
+    }
+    a{
+        color: $white !important;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}

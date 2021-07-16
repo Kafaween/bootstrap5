@@ -1,0 +1,43 @@
+.line1::before{
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: $primary;
+    display: block;
+    margin: auto;
+
+}
+.line2::after{
+    content: "";
+    width: 30px;
+    height: 8px;
+    background-color: $primary;
+    
+    display: block;
+    margin: auto;
+   
+}
+
+.company{
+    padding: 0 0 5rem 0;
+
+
+    .col-md-4{
+        max-width: 100%;
+        height: 50px;
+        margin-bottom: 32px;
+        position: relative;
+        padding: 8px;
+        text-align: center;
+       
+
+    }
+
+    img{
+        height: 100%;
+
+        &:hover{
+            filter: grayscale(100);
+        }
+    }
+}
